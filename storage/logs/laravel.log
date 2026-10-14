@@ -1,0 +1,12 @@
+[2026-10-13 13:52:56] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=912667  
+[2026-10-13 15:06:21] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=855868  
+[2026-10-13 17:47:38] local.INFO: DocumentDownload letterhead PDF {"locationID":23,"docType":"invoice","key":"41063","template":"ljp","slip":false,"background_found":true,"seconds":1.09} 
+[2026-10-13 17:49:03] local.INFO: DocumentDownload letterhead PDF {"locationID":27,"docType":"invoice","key":"106","template":"ljp","slip":false,"background_found":true,"seconds":0.21} 
+[2026-10-13 17:49:54] local.INFO: DocumentDownload letterhead PDF {"locationID":11,"docType":"invoice","key":"9751","template":"ljp","slip":false,"background_found":true,"seconds":1.89} 
+[2026-10-13 17:50:20] local.INFO: DocumentDownload letterhead PDF {"locationID":14,"docType":"invoice","key":"3658","template":"ljp","slip":false,"background_found":true,"seconds":0.31} 
+[2026-10-14 10:10:11] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=551440  
+[2026-10-14 11:10:48] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=081616  
+[2026-10-14 11:17:28] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=729171  
+[2026-10-14 11:17:53] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=598396  
+[2026-10-14 11:18:16] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=703327  
+[2026-10-14 12:38:55] local.INFO: [OTP-LOG-DRIVER] phone=4715 otp=050820  

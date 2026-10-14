@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#E8F4F8"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="35" fill="#667EEA"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="50" ry="45" fill="#667EEA"/>
+  
+  <!-- Shoulders -->
+  <ellipse cx="100" cy="155" rx="55" ry="30" fill="#667EEA" opacity="0.8"/>
+</svg>

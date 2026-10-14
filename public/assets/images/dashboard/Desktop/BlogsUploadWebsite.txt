@@ -1,0 +1,119 @@
+1==== https://www.modernpest.in/Login.aspx
+usertype: administrator
+username: admin
+password: admin
+
+2====  https://admin.ssgoldbuyers.co.in/
+username: admin@gmail.com
+password: admin@1234
+
+3==== https://admin.sonacashforgold.com/ 
+username: admin@gmail.com
+password: admin@1234
+
+cpenle for sonacash
+url====== sonacashforgold.com/cpanal
+username = xu9gxu5vn09x
+password = Nagpur#5676
+
+4==== https://admirestays.in/  WordPress
+
+
+5==== ramjosons(https://admin.shopify.com/)
+email: websvikasarora@gmail.com
+password: Muskan@0303
+
+
+6==== Alluring decor(https://admin.shopify.com/)
+email : store@alluringdecor.in
+pass  : Htg@alluring
+
+
+7==== Heltog 
+https://heltog.com/admin/login
+
+8==== hostinger https://www.mybathspace.com/
+email: deepankur.gogia@gmail.com
+password:  MBS20251!
+
+9==== Admire pms login
+https://forge.laravel.com/sign-in
+mvrservicestech@gmail.com
+Pms@forge2025
+https://gitlab.com/users/sign_in
+
+https://docs.google.com/spreadsheets/u/0/d/1Nm9dCIKD9sLQNJazfkndUtm60eWmsJMDL0ql_zGPLsU/htmlview hostingsheet
+https://docs.google.com/spreadsheets/d/1gihhaY2ca4b6oNW7TwQgrL9lBMyi3iRIIr3tl_g5SwE/edit?pli=1&gid=0#gid=0  worksheet
+https://www.figma.com/design/hy8Fg7z1no8rerpXrMZ8DS/Untitled?node-id=47-199&t=qodPbBFWAswaztOb-0  figma
+https://dashboard.admirestays.in/login  
+https://admireinn44.admirestays.in/admin
+https://themewagon.github.io/adminhmd/html/add-user.html  template
+
+
+
+USE [Webhomesaaz]
+GO
+
+EXEC dbo.Online_Sp_StockReportByItemCode
+    @ItemCode = 'H2561';
+
+
+////
+
+
+SELECT
+    H.ItemDetID,
+    H.ItemCode,
+    H.CompanyName,
+    H.ItemName,
+    H.ProductName,
+    H.DesignName,
+    H.Color,
+    H.StkQty,
+    H.MRP,
+    H.Rate,
+    H.SectionName,
+    H.Unit,
+    H.Size,
+
+    -- ItemDet fields
+    I.QualityName,
+    I.SerialNo,
+    I.SupplierName,
+    I.SupplierMobileNo,
+    I.ContactPerson,
+    I.ItemImage,
+    I.IImage
+
+FROM [Webhomesaaz].[dbo].[HSStock] H
+
+LEFT JOIN [Webhomesaaz].[dbo].[ItemDet] I
+    ON H.ItemDetID = I.SysItemDetID
+
+WHERE H.ItemCode = 'B88';
+
+16389
+
+
+
+
+
+-- 37 Avenue (locationID = 29) ke liye current month ka data
+DECLARE @DateFrom DATETIME = '2026-08-01 00:00:00';
+DECLARE @DateTo   DATETIME = '2026-08-31 23:59:59';
+DECLARE @FloorID  INT = 0;
+DECLARE @LocationID INT = 29;
+
+EXEC dbo.ProcGoodsReceived
+    @DateFrom = @DateFrom,
+    @DateTo = @DateTo,
+    @FloorID = @FloorID,
+    @locationID = @LocationID;
+
+
+
+
+/////////////
+
+
+EXEC dbo.ProcGrndetDetails @grnID = 80386;

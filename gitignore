@@ -1,0 +1,66 @@
+# ---- Laravel: dependencies ----
+/vendor
+/node_modules
+
+# ---- Environment & secrets (never commit) ----
+.env
+.env.backup
+.env.production
+.env.*.local
+auth.json
+
+# ---- Build / hot reload ----
+/public/hot
+/public/build
+/public/storage
+/storage/*.key
+/storage/pail
+
+# ---- Caches & compiled files ----
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/
+!/storage/framework/cache/data/
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/down
+/storage/framework/maintenance.php
+
+# ---- Logs ----
+/storage/logs/*
+!/storage/logs/.gitignore
+*.log
+
+# ---- Uploaded user files (profile images, invoices etc.) ----
+/public/uploads
+/public/invoices
+/public/items
+
+# ---- Local test / debug files ----
+/public/phpinfo.php
+*-old.php
+*-old/
+*.bak
+*.tmp
+*.swp
+
+# ---- Tests & tooling cache ----
+/.phpunit.cache
+/.phpunit.result.cache
+/.fleet
+/.idea
+/.vscode
+/.nova
+/.vscode
+/.zed
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Scratch / analysis ----
+/scratchpad
+/outputs
